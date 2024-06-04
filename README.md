@@ -4,6 +4,10 @@ Notes:
 - `select`: it works like a `switch` block and contains `case` and `default`. `select` takes the communication with a channel as `case`s and blocks till there is communication remaining. A communication could be in or out both. When there are multiple choices available to it, this statement chooses one randomly.
 
 
-- [x] Fan-in multiplexing
-- [x] Sequencing
-- [ ] buffer channels
+### Sequence
+1. fan-in.go
+2. sequencing.go
+3. select.go
+4. timeouts.go
+5. quit.go
+6. lightweight_go_routines.go
