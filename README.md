@@ -11,3 +11,7 @@ Notes:
 4. timeouts.go
 5. quit.go
 6. lightweight_go_routines.go
+
+### Reference:
+- Slides: https://go.dev/talks/2012/concurrency.slide#1
+- Talk: https://www.youtube.com/watch?v=f6kdp27TYZs
