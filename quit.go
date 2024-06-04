@@ -17,7 +17,7 @@ func quit() {
 	go func() {
 		channel <- "message"
 		quitChannel <- true
-		fmt.Printf("got ack for quitChannel %d", <-quitChannel)
+		fmt.Printf("got ack for quitChannel %t", <-quitChannel)
 	}()
 
 	for {
