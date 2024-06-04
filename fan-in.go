@@ -55,7 +55,7 @@ func fanIn() <-chan string {
 	go func() {
 		for i := 0; i < 5; i++ {
 			channel <- <-channel1
-			time.Sleep(1000)
+			time.Sleep(1 * time.Millisecond)
 		}
 	}()
 	go func() {
