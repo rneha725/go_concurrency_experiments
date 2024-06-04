@@ -1,6 +1,7 @@
 package main
 
 func main() {
-	runFanIn()
-	runSequencing()
+	//runFanIn()
+	//runSequencing()
+	selectFanIn()
 }
