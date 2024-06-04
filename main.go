@@ -5,5 +5,6 @@ func main() {
 	//runSequencing()
 	//selectFanIn()
 	//timeout()
-	quit()
+	//quit()
+	runDaisyChain()
 }
