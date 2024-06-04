@@ -6,7 +6,8 @@ import (
 )
 
 /*
-fanIn using select statement
+fanIn using select statement.
+there is an infinite select statement, to timeout, if any message takes more than 1ms to deliver, the loop breaks
 */
 
 func selectFanIn() {
